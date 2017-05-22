@@ -1,3 +1,33 @@
-.footertext {
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a:link {
+    color: red;
+}
+a:visited {
+    color:lightcoral;
+}
+
+a:link, a:visited {
+    border-radius: 5px;
+    background-color: rebeccapurple;
+    color: tomato;
+    padding: 14px 5px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    height: 5px;
+}
+footer {
     text-align: center;
+}
+
+ul {
+    font-weight: bold;
+
+}
+
+p {
+    color: darkred;
 }
