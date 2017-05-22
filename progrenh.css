@@ -4,16 +4,13 @@
 
 body {
     width: 90%;
-    background: no-repeat center;
-
+    background:url("Zen.jpg") no-repeat center;
+    object-fit: cover;
+    height:100%;
 }
-#zen {
-    position: relative;
-    opacity: 0.18;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
+
+body img 
+
     
 
 }
