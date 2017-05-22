@@ -4,18 +4,33 @@
 
 body {
     width: 90%;
-    background:url("Zen.jpg") no-repeat center;
+    background-color: lightsalmon;
     object-fit: cover;
     height:100%;
+    background: -webkit-linear-gradient(left, rgb(167, 223, 96), rgb(153, 90, 173));
+    background: -moz-linear-gradient(left, rgb(167, 223, 96), rgb(153, 90, 173));
+    background: -o-linear-gradient(left, rgb(167, 223, 96), rgb(153, 90, 173));
+    background: linear-gradient(to right, rgb(167, 223, 96), rgb(153, 90, 173));
 }
 
-body img 
-
-    
-
+section {
+    position: relative;
 }
+#zen {
+    display: inline-block;
+    position: absolute;
+    opacity: 0.2;
+    margin-left: 43%;
+    margin-top: 150%;
+    size: cover;
+}
+
+
 a:link {
-    color: red;
+    color: red;    background: -webkit-linear-gradient(223deg, rgb(71, 94, 35), rgb(79, 20, 90)) no-repeat;
+    background: -moz-linear-gradient(223deg, rgb(71, 94, 35), rgb(79, 20, 90)) no-repeat;
+    background: -o-linear-gradient(223deg, rgb(71, 94, 35), rgb(79, 20, 90)) no-repeat;
+    background: linear-gradient(313deg, rgb(71, 94, 35), rgb(79, 20, 90)) no-repeat;
 }
 a:visited {
     color:lightcoral;
