@@ -49,6 +49,19 @@ blockquote {
     padding-top: 80px;
     padding-bottom: 80px;
 }
+
+em {
+    text-transform: uppercase;
+}
+
+.bien {
+    color: green;
+}
+
+.mal {
+    color: red;
+}
+
 a:link, a:visited {
     border-radius: 5px;
     background-color: rebeccapurple;
