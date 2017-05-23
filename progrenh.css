@@ -1,9 +1,10 @@
 * {
-    font-family: 'Metamorphous';    
+    font-family: 'Metamorphous'; 
+    word-spacing: 3px;
 }
 
 body {
-    background: url("Zen.jpg") no-repeat right bottom, linear-gradient(to right, rgb(167, 223, 96), rgb(153, 90, 173));
+    background: /*url("Zen.jpg") no-repeat right bottom,*/ linear-gradient(to right, rgb(167, 223, 96), rgb(153, 90, 173));
     width: 90%;
     height:100%;
 
@@ -31,6 +32,15 @@ blockquote {
     border-left: solid 3px #CB4154;
     padding-top: 80px;
     padding-bottom: 80px;
+}
+
+.vill {
+    border-left: solid 3px #33cc33;
+}
+
+.farm {
+    border-left: solid 3px #cc0099;
+    border-radius: 3px;
 }
 
 em {
@@ -75,12 +85,12 @@ ul {
 }
 
 #one {
+    display: i;
+    padding-right: 100%;
+    background-repeat: no-repeat;
     background-image: url("bien.png");
 }
 
-#one img{
-    padding-right: 20px;
-}
 
 p {
     color: darkred;
