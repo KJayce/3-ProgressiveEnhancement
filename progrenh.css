@@ -85,9 +85,7 @@ ul {
 }
 
 #one {
-    display: i;
-    padding-right: 100%;
-    background-repeat: no-repeat;
+    display: inline;
     background-image: url("bien.png");
 }
 
