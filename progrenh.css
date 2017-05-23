@@ -1,30 +1,13 @@
 * {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Metamorphous';    
 }
 
 body {
+    background: url("Zen.jpg") no-repeat right bottom, linear-gradient(to right, rgb(167, 223, 96), rgb(153, 90, 173));
     width: 90%;
-    background-color: lightsalmon;
-    object-fit: cover;
     height:100%;
-    background: -webkit-linear-gradient(left, rgb(167, 223, 96), rgb(153, 90, 173));
-    background: -moz-linear-gradient(left, rgb(167, 223, 96), rgb(153, 90, 173));
-    background: -o-linear-gradient(left, rgb(167, 223, 96), rgb(153, 90, 173));
-    background: linear-gradient(to right, rgb(167, 223, 96), rgb(153, 90, 173));
-}
 
-section {
-    position: relative;
 }
-#zen {
-    display: inline-block;
-    position: absolute;
-    opacity: 0.2;
-    margin-left: 43%;
-    margin-top: 150%;
-    size: cover;
-}
-
 
 a:link {
     color: red;    background: -webkit-linear-gradient(223deg, rgb(71, 94, 35), rgb(79, 20, 90)) no-repeat;
@@ -61,6 +44,16 @@ em {
 .mal {
     color: red;
 }
+table tr:nth-child(odd) td{
+    background-color: white;
+    border: 3px double solid gray;
+
+}
+table tr:nth-child(even) td{
+    border:3px double solid white;
+    background-color: gray;
+}
+
 
 a:link, a:visited {
     border-radius: 5px;
@@ -73,12 +66,20 @@ a:link, a:visited {
     height: 5px;
 }
 footer {
+    position: relative;
     text-align: center;
 }
 
 ul {
     font-weight: bold;
+}
 
+#one {
+    background-image: url("bien.png");
+}
+
+#one img{
+    padding-right: 20px;
 }
 
 p {
