@@ -4,7 +4,7 @@
 }
 
 body {
-    background: /*url("Zen.jpg") no-repeat right bottom,*/ linear-gradient(to right, rgb(167, 223, 96), rgb(153, 90, 173));
+    background: url("Zen.jpg") no-repeat right bottom, linear-gradient(to right, rgb(167, 223, 96), rgb(153, 90, 173));
     width: 90%;
     height:100%;
 
